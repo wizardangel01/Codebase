@@ -1,0 +1,44 @@
+{
+  "title": "Inheritance",
+  "summary": "Reuse and extend classes with inheritance, polymorphism and composition.",
+  "line": "objects",
+  "level": "intermediate",
+  "outcomes": [
+    "Create subclasses and override methods",
+    "Call parent behaviour with super()",
+    "Use polymorphism and duck typing",
+    "Write abstract base classes, custom exceptions and enums",
+    "Choose between inheritance and composition"
+  ],
+  "lessons": [
+    {
+      "id": "inheritance-basics",
+      "title": "Inheritance",
+      "summary": "Build new classes from existing ones.",
+      "minutes": 25
+    },
+    {
+      "id": "polymorphism",
+      "title": "Polymorphism and duck typing",
+      "summary": "Different objects, one interface.",
+      "minutes": 25
+    },
+    {
+      "id": "composition-and-mixins",
+      "title": "Composition, mixins and the MRO",
+      "summary": "When not to inherit, and how multiple inheritance really works.",
+      "minutes": 25
+    },
+    {
+      "id": "exceptions-and-enums",
+      "title": "Custom exceptions and enums",
+      "summary": "Your own exception classes and named constants.",
+      "minutes": 30
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Arena Tournament",
+  "gameSummary": "Subclass your fighter, override its moves and win the tournament.",
+  "cheatsheet": "cheatsheet.md"
+}

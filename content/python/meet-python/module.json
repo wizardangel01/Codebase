@@ -1,0 +1,24 @@
+{
+  "title": "Meet Python",
+  "summary": "Run your first program, learn how Python reads your code line by line, and meet your first error messages.",
+  "line": "foundations",
+  "level": "beginner",
+  "outcomes": [
+    "Explain what a program is and how Python runs it, one line at a time",
+    "Display text and numbers with print()",
+    "Use Python as a calculator and know the order it works things out in",
+    "Leave comments that explain your code to people",
+    "Read an error message and fix the mistake it points to"
+  ],
+  "lessons": [
+    { "id": "hello-world", "title": "Your first program", "summary": "Run Python, print text and learn what strings are.", "minutes": 12 },
+    { "id": "calculator", "title": "Python as a calculator", "summary": "Do arithmetic with Python's operators and learn the order it works things out in.", "minutes": 18 },
+    { "id": "how-python-reads", "title": "Comments and how Python reads code", "summary": "Watch Python run a program line by line, leave comments, and control how print() ends a line.", "minutes": 18 },
+    { "id": "reading-errors", "title": "Reading error messages", "summary": "Meet the five most common errors, read a message from the bottom up, and fix bugs calmly.", "minutes": 20 }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Launch Control",
+  "gameSummary": "Program a rover with Python commands. The order of your lines decides everything.",
+  "cheatsheet": "cheatsheet.md"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Loops",
+  "summary": "Repeat work without repeating yourself, with for loops, while loops and the patterns built from them.",
+  "line": "flow",
+  "level": "beginner",
+  "outcomes": [
+    "Repeat code a set number of times with for and range()",
+    "Keep going until a condition changes with while",
+    "Use break and continue to control a loop",
+    "Nest loops to draw grids and tables",
+    "Apply loop patterns such as counting, totalling and searching"
+  ],
+  "lessons": [
+    {
+      "id": "for-loops",
+      "title": "for loops and range()",
+      "summary": "Repeat code with for, and count with range().",
+      "minutes": 18
+    },
+    {
+      "id": "while-loops",
+      "title": "while loops",
+      "summary": "Repeat while a condition is true, and learn how to stop.",
+      "minutes": 18
+    },
+    {
+      "id": "nested-loops",
+      "title": "Loops inside loops",
+      "summary": "Nest one loop inside another to build tables, grids and patterns.",
+      "minutes": 16
+    },
+    {
+      "id": "loop-patterns",
+      "title": "Loop patterns",
+      "summary": "Learn the handful of loop recipes behind most programs.",
+      "minutes": 20
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Asteroid Maze",
+  "gameSummary": "Steer through asteroid mazes with loops. A few lines can cover a long route.",
+  "cheatsheet": "cheatsheet.md"
+}

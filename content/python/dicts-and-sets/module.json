@@ -1,0 +1,44 @@
+{
+  "title": "Dictionaries and sets",
+  "summary": "Look things up by name with dictionaries, and handle unique values with sets.",
+  "line": "flow",
+  "level": "intermediate",
+  "outcomes": [
+    "Store and look up data with dictionaries",
+    "Add, change and remove entries safely",
+    "Count and group data using dictionaries",
+    "Use sets for unique values and fast membership tests",
+    "Choose between lists, tuples, dictionaries and sets"
+  ],
+  "lessons": [
+    {
+      "id": "dictionaries",
+      "title": "Dictionaries",
+      "summary": "Store values under keys, look them up, and loop over them.",
+      "minutes": 20
+    },
+    {
+      "id": "dict-patterns",
+      "title": "Dictionary patterns",
+      "summary": "Count, group, invert and sort: the recipes you will use all the time.",
+      "minutes": 20
+    },
+    {
+      "id": "sets",
+      "title": "Sets",
+      "summary": "Keep only unique values and compare groups with set operations.",
+      "minutes": 25
+    },
+    {
+      "id": "choosing-containers",
+      "title": "Choosing the right container",
+      "summary": "Pick the best of lists, tuples, dictionaries and sets, and model real data.",
+      "minutes": 25
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Signal Decoder",
+  "gameSummary": "Decode secret messages and track passengers with dictionaries and sets.",
+  "cheatsheet": "cheatsheet.md"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "The standard library",
+  "summary": "Meet the batteries that come with Python: modules, maths, dates, collections and more.",
+  "line": "objects",
+  "level": "intermediate",
+  "outcomes": [
+    "Import modules and write one of your own",
+    "Use math, random and statistics for calculations",
+    "Work with dates and times",
+    "Use collections such as Counter, defaultdict and deque",
+    "Read the documentation to learn a new module"
+  ],
+  "lessons": [
+    {
+      "id": "modules-and-imports",
+      "title": "Modules and imports",
+      "summary": "Use other people's code, and organise your own.",
+      "minutes": 20
+    },
+    {
+      "id": "math-random-statistics",
+      "title": "Numbers: math, random and statistics",
+      "summary": "Maths functions, random numbers and summary statistics.",
+      "minutes": 25
+    },
+    {
+      "id": "dates-and-collections",
+      "title": "Dates and collections",
+      "summary": "datetime, Counter, defaultdict, deque, namedtuple and itertools.",
+      "minutes": 35
+    },
+    {
+      "id": "more-batteries",
+      "title": "More batteries",
+      "summary": "pathlib, functools, operator, textwrap, hashlib and how to read the docs.",
+      "minutes": 35
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Data Detective",
+  "gameSummary": "Solve cases with the standard library: dates, counters, random seeds and clever tools.",
+  "cheatsheet": "cheatsheet.md"
+}

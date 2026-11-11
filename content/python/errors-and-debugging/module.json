@@ -1,0 +1,44 @@
+{
+  "title": "Errors and debugging",
+  "summary": "Handle errors gracefully, find bugs methodically, and test your code.",
+  "line": "functions",
+  "level": "intermediate",
+  "outcomes": [
+    "Catch and handle exceptions with try and except",
+    "Raise exceptions and validate input",
+    "Debug with prints, the trace tool and a systematic method",
+    "Write assert statements and small automatic tests",
+    "Recognise the most common bug patterns"
+  ],
+  "lessons": [
+    {
+      "id": "try-except",
+      "title": "try and except",
+      "summary": "Catch errors so a mistake does not end the program.",
+      "minutes": 30
+    },
+    {
+      "id": "raising",
+      "title": "Raising exceptions",
+      "summary": "Signal problems on purpose and check your inputs.",
+      "minutes": 28
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging",
+      "summary": "A calm, step-by-step method for finding and fixing bugs.",
+      "minutes": 35
+    },
+    {
+      "id": "testing",
+      "title": "Testing your code",
+      "summary": "Prove your functions work with assert, unittest and doctest.",
+      "minutes": 30
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Bug Hunt",
+  "gameSummary": "The station software is full of bugs. Fix the code, and handle the errors it should expect.",
+  "cheatsheet": "cheatsheet.md"
+}
