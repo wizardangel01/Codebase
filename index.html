@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CodeQuest Academy · Learn Python</title>
+  <meta name="description" content="Learn Python from your first line to professional code. Short lessons, exercises that check your code, and a game in every module. Runs in your browser, nothing to install.">
+  <meta name="theme-color" content="#0e1a33">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <script>
+    // Apply the saved theme before first paint so there is no flash.
+    try {
+      var t = localStorage.getItem('cq:pref:theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <link rel="preload" href="fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/plex-cond-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/views.css">
+  <link rel="stylesheet" href="css/games.css">
+  <link rel="stylesheet" href="css/games-canvas.css">
+  <link rel="stylesheet" href="css/games-arena.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" onclick="var m=document.getElementById('main');if(m){m.focus();}return false;">Skip to content</a>
+  <div id="app"><p style="padding:2rem">Loading…</p></div>
+  <noscript><p style="padding:2rem;max-width:40rem">CodeQuest Academy needs JavaScript to run Python in your browser. Please enable JavaScript and reload.</p></noscript>
+  <div id="toasts" aria-live="polite" aria-atomic="false"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
