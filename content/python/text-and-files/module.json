@@ -1,0 +1,44 @@
+{
+  "title": "Text and files",
+  "summary": "Process text like a pro, and read and write files, CSV and JSON data.",
+  "line": "functions",
+  "level": "intermediate",
+  "outcomes": [
+    "Clean, split and join text with string methods",
+    "Read and write text files with open() and with",
+    "Work with CSV and JSON data",
+    "Search text with simple regular expressions",
+    "Turn a text file into a summary report"
+  ],
+  "lessons": [
+    {
+      "id": "string-methods",
+      "title": "String methods",
+      "summary": "Split, join, search and reshape text.",
+      "minutes": 20
+    },
+    {
+      "id": "files",
+      "title": "Reading and writing files",
+      "summary": "Open files safely, read them line by line, and write results.",
+      "minutes": 20
+    },
+    {
+      "id": "csv-and-json",
+      "title": "CSV and JSON",
+      "summary": "Read and write the two most common data formats.",
+      "minutes": 20
+    },
+    {
+      "id": "text-recipes",
+      "title": "Text recipes",
+      "summary": "Word counts, palindromes, anagrams, cleaning data and a first taste of regular expressions.",
+      "minutes": 18
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Archive Vault",
+  "gameSummary": "Crack open the archive: read files, parse records and write clean reports.",
+  "cheatsheet": "cheatsheet.md"
+}

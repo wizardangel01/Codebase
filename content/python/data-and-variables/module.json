@@ -1,0 +1,44 @@
+{
+  "title": "Data and variables",
+  "summary": "Store information in variables, learn the basic kinds of data, and write programs that talk to the user.",
+  "line": "foundations",
+  "level": "beginner",
+  "outcomes": [
+    "Store values in variables and give them clear names",
+    "Tell integers, floats, strings and booleans apart, and convert between them",
+    "Read what a user types with input() and use it in calculations",
+    "Build messages with f-strings and format numbers neatly",
+    "Pick text apart with indexing, slicing and string methods"
+  ],
+  "lessons": [
+    {
+      "id": "variables",
+      "title": "Variables",
+      "summary": "Give values names, change them, and watch Python keep track.",
+      "minutes": 18
+    },
+    {
+      "id": "data-types",
+      "title": "Kinds of data",
+      "summary": "Meet integers, floats, strings and booleans, and convert between them.",
+      "minutes": 18
+    },
+    {
+      "id": "input",
+      "title": "Talking to the user",
+      "summary": "Read what the user types, convert it, and build small interactive programs.",
+      "minutes": 16
+    },
+    {
+      "id": "text-basics",
+      "title": "Working with text",
+      "summary": "Format output with f-strings, pick text apart with indexes and slices, and use string methods.",
+      "minutes": 20
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Cargo Bay",
+  "gameSummary": "Run the cargo bay of a space station: read details with input(), calculate, and print neat reports.",
+  "cheatsheet": "cheatsheet.md"
+}

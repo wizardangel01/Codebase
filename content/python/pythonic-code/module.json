@@ -1,0 +1,44 @@
+{
+  "title": "Pythonic code",
+  "summary": "Write compact, idiomatic Python with comprehensions, generators, functional tools and clean style.",
+  "line": "pro",
+  "level": "advanced",
+  "outcomes": [
+    "Build lists, dicts and sets with comprehensions",
+    "Create lazy sequences with iterators and generators",
+    "Use any, all, zip, map, filter and lambda fluently",
+    "Apply pattern matching and unpacking",
+    "Write clean code that follows PEP 8 and Python idioms"
+  ],
+  "lessons": [
+    {
+      "id": "comprehensions",
+      "title": "Comprehensions",
+      "summary": "Build lists, dictionaries and sets in one expression.",
+      "minutes": 30
+    },
+    {
+      "id": "iterators-generators",
+      "title": "Iterators and generators",
+      "summary": "Produce values one at a time, lazily.",
+      "minutes": 30
+    },
+    {
+      "id": "functional-tools",
+      "title": "Functional tools and pattern matching",
+      "summary": "lambda, map, filter, any, all, unpacking, the walrus operator and match.",
+      "minutes": 30
+    },
+    {
+      "id": "clean-python",
+      "title": "Clean, readable Python",
+      "summary": "Style, docstrings and the idioms that make code a pleasure to read.",
+      "minutes": 30
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Code Golf",
+  "gameSummary": "Solve puzzles in as few lines as possible, using comprehensions and generators.",
+  "cheatsheet": "cheatsheet.md"
+}

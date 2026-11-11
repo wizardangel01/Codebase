@@ -1,0 +1,44 @@
+{
+  "title": "Classes",
+  "summary": "Model things with classes: bundle data and behaviour into objects.",
+  "line": "objects",
+  "level": "intermediate",
+  "outcomes": [
+    "Define classes and create objects from them",
+    "Use __init__, attributes and methods",
+    "Customise printing and comparison with special methods",
+    "Use properties, class methods and static methods",
+    "Design a small program around objects"
+  ],
+  "lessons": [
+    {
+      "id": "objects-and-classes",
+      "title": "Objects and classes",
+      "summary": "Meet objects, then build your own kinds of object.",
+      "minutes": 30
+    },
+    {
+      "id": "methods-and-state",
+      "title": "Methods and state",
+      "summary": "Objects that remember things and change over time.",
+      "minutes": 30
+    },
+    {
+      "id": "special-methods",
+      "title": "Special methods and properties",
+      "summary": "Make your objects work with len(), +, ==, < and friends, and guard attributes with properties.",
+      "minutes": 30
+    },
+    {
+      "id": "class-design",
+      "title": "Designing with classes",
+      "summary": "Turn a problem into classes, and use dataclasses to cut the boilerplate.",
+      "minutes": 30
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Robot Arena",
+  "gameSummary": "Build your own fighter class and send it into the arena.",
+  "cheatsheet": "cheatsheet.md"
+}

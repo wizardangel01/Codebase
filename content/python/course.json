@@ -1,0 +1,56 @@
+{
+  "title": "Python from Zero to Pro",
+  "subtitle": "Fifteen modules that take you from your first print() to decorators, async code and algorithms. Every module ends with a game you play by writing Python.",
+  "lines": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "summary": "Write and run your first programs. Store data, then make decisions with it.",
+      "modules": [
+        "meet-python",
+        "data-and-variables",
+        "decisions"
+      ]
+    },
+    {
+      "id": "flow",
+      "title": "Flow",
+      "summary": "Repeat work with loops and hold many values in lists, dictionaries and sets.",
+      "modules": [
+        "loops",
+        "lists",
+        "dicts-and-sets"
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "summary": "Package code into functions, work with text and files, and handle errors calmly.",
+      "modules": [
+        "functions",
+        "text-and-files",
+        "errors-and-debugging"
+      ]
+    },
+    {
+      "id": "objects",
+      "title": "Objects",
+      "summary": "Model the world with classes, then reuse code through inheritance and the standard library.",
+      "modules": [
+        "classes",
+        "inheritance",
+        "standard-library"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "summary": "Write idiomatic Python: comprehensions, generators, decorators, type hints and algorithms.",
+      "modules": [
+        "pythonic-code",
+        "decorators-and-types",
+        "algorithms"
+      ]
+    }
+  ]
+}

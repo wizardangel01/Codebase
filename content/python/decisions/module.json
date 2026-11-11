@@ -1,0 +1,44 @@
+{
+  "title": "Decisions",
+  "summary": "Make programs choose what to do, using comparisons, if statements and logic.",
+  "line": "foundations",
+  "level": "beginner",
+  "outcomes": [
+    "Compare values and get True or False",
+    "Choose between actions with if, elif and else",
+    "Combine conditions with and, or and not",
+    "Write programs that respond differently to what the user types",
+    "Avoid the usual mistakes: = instead of ==, wrong indentation, a missing colon"
+  ],
+  "lessons": [
+    {
+      "id": "comparisons",
+      "title": "True or False",
+      "summary": "Compare values with ==, !=, <, > and friends, and meet the booleans.",
+      "minutes": 16
+    },
+    {
+      "id": "if-statements",
+      "title": "if, elif and else",
+      "summary": "Run different code depending on a condition, and learn how indentation groups lines.",
+      "minutes": 20
+    },
+    {
+      "id": "logic",
+      "title": "and, or, not",
+      "summary": "Combine conditions, and learn what Python treats as true or false.",
+      "minutes": 18
+    },
+    {
+      "id": "decision-programs",
+      "title": "Programs that decide",
+      "summary": "Put it all together in small programs: grades, leap years, login checks and text adventures.",
+      "minutes": 20
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Crystal Canyon",
+  "gameSummary": "Your rover must cope with whatever it finds. Use if and sensors so one program works on every map.",
+  "cheatsheet": "cheatsheet.md"
+}

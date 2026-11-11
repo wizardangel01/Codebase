@@ -1,0 +1,44 @@
+{
+  "title": "Functions",
+  "summary": "Package code into reusable functions with parameters and return values, and learn where names live.",
+  "line": "functions",
+  "level": "intermediate",
+  "outcomes": [
+    "Define and call functions with parameters",
+    "Return values and tell return from print",
+    "Use default, keyword and variable-length arguments",
+    "Explain local and global scope",
+    "Write a recursive function with a base case"
+  ],
+  "lessons": [
+    {
+      "id": "defining-functions",
+      "title": "Defining functions",
+      "summary": "Name a block of code, give it inputs, and get an answer back.",
+      "minutes": 20
+    },
+    {
+      "id": "parameters",
+      "title": "Parameters in depth",
+      "summary": "Defaults, keywords, *args and **kwargs, and returning several values.",
+      "minutes": 20
+    },
+    {
+      "id": "scope",
+      "title": "Scope and functions as values",
+      "summary": "Where names live, and how to pass functions around.",
+      "minutes": 18
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "summary": "Functions that call themselves, and the call stack that makes it work.",
+      "minutes": 18
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Pixel Painter",
+  "gameSummary": "Draw with code. Write functions that paint shapes, then reuse them to make pictures.",
+  "cheatsheet": "cheatsheet.md"
+}

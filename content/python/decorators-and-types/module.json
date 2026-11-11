@@ -1,0 +1,44 @@
+{
+  "title": "Decorators and types",
+  "summary": "Treat functions as values with closures and decorators, then describe your code with type hints.",
+  "line": "pro",
+  "level": "advanced",
+  "outcomes": [
+    "Write closures that remember values",
+    "Write and apply decorators, including ones with arguments",
+    "Add type hints and know what they do and do not do",
+    "Use dataclasses and the typing tools",
+    "Use context managers and async/await at a basic level"
+  ],
+  "lessons": [
+    {
+      "id": "closures",
+      "title": "Closures and higher-order functions",
+      "summary": "Functions that remember, and functions that build functions.",
+      "minutes": 30
+    },
+    {
+      "id": "decorators",
+      "title": "Decorators",
+      "summary": "Wrap functions to add behaviour without changing them.",
+      "minutes": 30
+    },
+    {
+      "id": "type-hints",
+      "title": "Type hints and dataclasses",
+      "summary": "Say what your code expects, and let tools check it.",
+      "minutes": 30
+    },
+    {
+      "id": "context-and-async",
+      "title": "Context managers and async",
+      "summary": "with statements for tidy resources, and a first look at async and await.",
+      "minutes": 30
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Machine Shop",
+  "gameSummary": "Build decorators, closures and typed helpers that keep the station machines running.",
+  "cheatsheet": "cheatsheet.md"
+}

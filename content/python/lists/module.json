@@ -1,0 +1,44 @@
+{
+  "title": "Lists",
+  "summary": "Keep many values together in lists and tuples, change them, and loop over them.",
+  "line": "flow",
+  "level": "beginner",
+  "outcomes": [
+    "Create lists and read or change items by position",
+    "Add, remove, sort and search the items in a list",
+    "Loop over lists with for, enumerate and zip",
+    "Slice and copy lists without surprises",
+    "Group related values in tuples and unpack them"
+  ],
+  "lessons": [
+    {
+      "id": "list-basics",
+      "title": "Lists",
+      "summary": "Create lists, read items by position, and change them.",
+      "minutes": 20
+    },
+    {
+      "id": "looping-lists",
+      "title": "Looping over lists",
+      "summary": "Visit every item, with positions, in pairs, and build new lists as you go.",
+      "minutes": 18
+    },
+    {
+      "id": "tuples-and-copies",
+      "title": "Tuples, copies and nested lists",
+      "summary": "Meet tuples, understand aliasing, and work with lists of lists.",
+      "minutes": 18
+    },
+    {
+      "id": "list-recipes",
+      "title": "List recipes",
+      "summary": "Filtering, removing duplicates, stacks, queues and sorting records.",
+      "minutes": 20
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Crew Roster",
+  "gameSummary": "Keep the crew roster in order: build, sort, filter and search lists of names and numbers.",
+  "cheatsheet": "cheatsheet.md"
+}
