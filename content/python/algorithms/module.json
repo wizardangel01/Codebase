@@ -1,0 +1,44 @@
+{
+  "title": "Algorithms",
+  "summary": "Think about speed and memory, and learn the classic ways to search, sort and solve problems.",
+  "line": "pro",
+  "level": "advanced",
+  "outcomes": [
+    "Estimate how the work of an algorithm grows (Big-O)",
+    "Implement linear and binary search",
+    "Implement and compare basic sorting algorithms",
+    "Solve problems with recursion, memoisation and dynamic programming",
+    "Use stacks, queues, heaps, trees and graphs"
+  ],
+  "lessons": [
+    {
+      "id": "efficiency",
+      "title": "Measuring efficiency",
+      "summary": "How to tell a fast algorithm from a slow one.",
+      "minutes": 30
+    },
+    {
+      "id": "search-and-sort",
+      "title": "Searching and sorting",
+      "summary": "Linear and binary search, and the classic sorting algorithms.",
+      "minutes": 35
+    },
+    {
+      "id": "recursion-and-dp",
+      "title": "Recursion, memoisation and dynamic programming",
+      "summary": "Solve big problems by solving small ones once.",
+      "minutes": 35
+    },
+    {
+      "id": "data-structures",
+      "title": "Stacks, queues, trees and graphs",
+      "summary": "The structures behind most real programs.",
+      "minutes": 35
+    }
+  ],
+  "quiz": "quiz.md",
+  "game": "game.md",
+  "gameTitle": "Algorithm Gauntlet",
+  "gameSummary": "Beat the gauntlet with correct and fast algorithms. Slow solutions run out of time.",
+  "cheatsheet": "cheatsheet.md"
+}
